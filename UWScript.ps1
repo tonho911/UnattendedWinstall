@@ -531,8 +531,7 @@ $appxPackages = @(
 # Define Windows Capabilities
 $capabilities = @(
     'Browser.InternetExplorer', 'MathRecognizer', 'OpenSSH.Client',
-    'Microsoft.Windows.PowerShell.ISE', 'App.Support.QuickAssist', 'App.StepsRecorder',
-    'Microsoft.Windows.WordPad'
+    'Microsoft.Windows.PowerShell.ISE', 'App.Support.QuickAssist', 'App.StepsRecorder'
 )
 
 # Apply registry mods to prevent reinstallation and disable features
